@@ -5,6 +5,16 @@
 await import("./src/env.js");
 
 /** @type {import("next").NextConfig} */
-const config = {};
+const config = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "gitee.com",
+        pathname: "/zhou_yong99995/images/**",
+      },
+    ],
+  },
+};
 
 export default config;

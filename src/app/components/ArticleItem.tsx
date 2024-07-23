@@ -6,7 +6,12 @@ export default function ArticleItem() {
   return (
     <div className="">
       {/* img */}
-      <Image src={Pic} width={300} height={300} alt="" />
+      <Image
+        src="https://gitee.com/zhou_yong99995/images/raw/master/img/12.png"
+        width={300}
+        height={300}
+        alt=""
+      />
       {/* tag */}
       <div className="my-3 text-xl font-bold">title</div>
       {/* title */}
